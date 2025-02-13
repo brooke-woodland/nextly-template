@@ -13,24 +13,21 @@ export default function Home() {
     <Container>
       <Hero />
       <SectionTitle
-        preTitle="Nextly Benefits"
-        title=" Why should you use this landing page"
+        preTitle="Compli Benefits"
+        title=" Avoid voided warranties."
       >
-        Nextly is a free landing page & marketing website template for startups
-        and indie projects. Its built with Next.js & TailwindCSS. And its
-        completely open-source.
+        Warranties are expensive and the equipment they cover is even more
+        expensive. Ensure your equipments' warranties are always valid to avoid
+        costly repairs and replacements.
       </SectionTitle>
 
       <Benefits data={benefitOne} />
       <Benefits imgPos="right" data={benefitTwo} />
 
-      <SectionTitle
-        preTitle="Watch a video"
-        title="Learn how to fullfil your needs"
-      >
-        This section is to highlight a promo or demo video of your product.
-        Analysts says a landing page with video has 3% more conversion rate. So,
-        don&apos;t forget to add one. Just like this.
+      <SectionTitle preTitle="Watch a demo" title="See how it can work for you">
+        Compli is built around a straightforward dashboard that helps you gain
+        insight into the state of your equipment's warranties and manage them
+        with ease.
       </SectionTitle>
 
       <Video videoId="fZ0D0cnR88E" />

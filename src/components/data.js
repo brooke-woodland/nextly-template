@@ -11,23 +11,23 @@ import benefitOneImg from "../../public/img/benefit-one.png";
 import benefitTwoImg from "../../public/img/benefit-two.png";
 
 const benefitOne = {
-  title: "Highlight your benefits",
-  desc: "You can use this space to highlight your first benefit or a feature of your product. It can also contain an image or Illustration like in the example along with some bullet points.",
+  title: "Features",
+  desc: "Compli offers three main features to ensure your warranties",
   image: benefitOneImg,
   bullets: [
     {
-      title: "Understand your customers",
-      desc: "Then explain the first point breifly in one or two lines.",
+      title: "Automatic Warranty Uploads",
+      desc: "Upload O&M manuals to the site and have warranties automatically created and in a centralized location. No more manual entry.",
       icon: <FaceSmileIcon />,
     },
     {
-      title: "Improve acquisition",
-      desc: "Here you can add the next benefit point.",
+      title: "Preventative Maintenance Scheduling",
+      desc: "Schedules of preventative maintence tasks are auto generated for each warranty. Push notifications can be configured to ensure there are no missed PM tasks.",
       icon: <ChartBarSquareIcon />,
     },
     {
-      title: "Drive customer retention",
-      desc: "This will be your last bullet point in this section.",
+      title: "One Click Warranty Claims",
+      desc: "With built in proof of preventative maintenance, warranty claims can be submitted with one click. No more back and forth with the manufacturer.",
       icon: <CursorArrowRaysIcon />,
     },
   ],
@@ -56,5 +56,4 @@ const benefitTwo = {
   ],
 };
 
-
-export {benefitOne, benefitTwo};
+export { benefitOne, benefitTwo };

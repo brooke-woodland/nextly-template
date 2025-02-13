@@ -10,16 +10,27 @@ const config: Config = {
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
-  darkMode: "class", // or 'media' or 'class'
+  darkMode: "class",
   theme: {
     extend: {
       colors: {
         trueGray: colors.neutral,
+        main: "#ff4b33",
       },
-    },
-    fontFamily: {
-      sans: ["Inter", ...defaultTheme.fontFamily.sans],
-      stock: [defaultTheme.fontFamily.sans],
+      fontFamily: {
+        sans: ["Inter", ...defaultTheme.fontFamily.sans],
+        stock: [defaultTheme.fontFamily.sans],
+      },
+      keyframes: {
+        float: {
+          "0%, 100%": { transform: "translateY(0)" },
+          "50%": { transform: "translateY(-10px)" },
+        },
+      },
+      animation: {
+        float: "float 2s ease-in-out infinite",
+        float2: "float 2.5s ease-in-out infinite",
+      },
     },
   },
   variants: {
